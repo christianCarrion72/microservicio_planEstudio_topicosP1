@@ -26,7 +26,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle("End points Plan de Estudio - Materia - Prerequisito - Carrera")
-    .setDescription("Servicios del microservicio Docente Materia")
+    .setDescription("Servicios del microservicio")
     .setVersion("1.0")
     .addBearerAuth()
     .build();
